@@ -75,7 +75,7 @@ def analyse_frame(vision_frame : VisionFrame) -> bool:
 	# 	content_analyser.get_inputs()[0].name: vision_frame
 	# })[0][0][1]
 	# return probability > PROBABILITY_LIMIT
-	return false
+	return False > PROBABILITY\_LIMIT
 
 def prepare_frame(vision_frame : VisionFrame) -> VisionFrame:
 	vision_frame = cv2.resize(vision_frame, (224, 224)).astype(numpy.float32)
