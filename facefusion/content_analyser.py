@@ -21,11 +21,12 @@ MODELS : Dict[str, ModelValue] =\
 {
 	'open_nsfw':
 	{
-		'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models/open_nsfw.onnx',
+		'url': 'https://github.com/ykobarin0223/facefusion/facefusion-assets/releases/download/models/open_nsfw.onnx',
 		'path': resolve_relative_path('../.assets/models/open_nsfw.onnx')
 	}
 }
-PROBABILITY_LIMIT = 0.80
+# PROBABILITY_LIMIT = 0.80
+PROBABILITY_LIMIT = 1.00
 RATE_LIMIT = 5
 STREAM_COUNTER = 0
 
